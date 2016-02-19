@@ -9,6 +9,7 @@ def check_age
     return puts "You may vote, smoke, and imbibe adult beverages"
   elsif age >= 25
     return puts "You may vote, smoke, drink, and rent a car"
+  end
 end
 
 def try_again
@@ -19,3 +20,6 @@ def try_again
   else
     return false
   end
+
+puts check_age
+end
